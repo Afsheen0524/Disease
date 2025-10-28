@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .stat {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .stat h2 {
+            margin: 0;
+            color: #555;
+        }
+        .stat p {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0 0 0;
+        }
+        .cases { color: #ff6b6b; }
+        .deaths { color: #4ecdc4; }
+        .recoveries { color: #45b7d1; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>COVID Tracker</h1>
+        <div class="stats">
+            <div class="stat cases">
+                <h2>Total Cases</h2>
+                <p>1,234,567</p>
+            </div>
+            <div class="stat deaths">
+                <h2>Total Deaths</h2>
+                <p>78,901</p>
+            </div>
+            <div class="stat recoveries">
+                <h2>Total Recoveries</h2>
+                <p>1,155,666</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
