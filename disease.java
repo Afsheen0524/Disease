@@ -1,4 +1,4 @@
-public class ask{
+public class disease{
   public static void main(String[] args){
     System.out.println("COVID TRACKER");
     System.out.println("Enter input:deaths");
